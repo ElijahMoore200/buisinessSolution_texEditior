@@ -10,7 +10,7 @@ root.title("Meeting Notes")
 #Set size of window
 photo = PhotoImage(file = "italics.png")
 # Create buttons
-underscore = Button(root, text="U", background='white')
+underscore = Button(root, text="U", background='white', image = photo)
 bold = Button(root,text="B", background='white')
 italics= Button(root,text='I',background='white')
 #Add a label
