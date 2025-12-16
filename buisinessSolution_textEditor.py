@@ -6,13 +6,13 @@ import tkinter as tk
 # Create the main window
 root = Tk()
 root.title("Meeting Notes")
-
+resized_image = image.resize((250, 200))
 #Set size of window
 photo = PhotoImage(file = "italics.png")
 # Create buttons
 underscore = Button(root, text="U", background='white')
 bold = Button(root,text="B", background='white')
-italics= Button(root,height= 15, width = 15,text='I',background='white',image = photo)
+italics= Button(root,text='I',background='white',image = photo)
 #Add a label
 label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
