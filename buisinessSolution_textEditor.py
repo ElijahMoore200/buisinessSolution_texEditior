@@ -2,17 +2,14 @@ from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
 import tkinter as tk 
+from tkinter.tkk import 
 
 # Create the main window
 root = Tk()
 root.title("Meeting Notes")
 
 #Set size of window
-from PIL import Image 
-try:
-	img = Image.open("https://cdn-icons-png.flaticon.com/512/59/59377.png")
-finally: 
-	pass
+photo = PhotoImage(file = "italics")
 # Create buttons
 underscore = Button(root, text="U", background='white')
 bold = Button(root,text="B", background='white')
