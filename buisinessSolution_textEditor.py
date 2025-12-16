@@ -11,9 +11,9 @@ root.title("Meeting Notes")
 
 
 # Create buttons
-red_button = Button(root, text="Red", background='red')
-yellow_button = Button(root,text="Yellow", background='yellow')
-green_button= Button(root,text='Green',background='green')
+underscore = Button(root, text="Red", background='red')
+bold = Button(root,text="Yellow", background='yellow')
+italics= Button(root,text='Green',background='green')
 #Add a label
 label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
