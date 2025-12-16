@@ -12,7 +12,7 @@ photo = PhotoImage(file = "italics.png")
 # Create buttons
 underscore = Button(root, text="U", background='white')
 bold = Button(root,text="B", background='white')
-italics= Button(root,height= 30, width = 30,text='I',background='white',image = photo)
+italics= Button(root,height= 15, width = 15,text='I',background='white',image = photo)
 #Add a label
 label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
