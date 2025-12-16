@@ -5,7 +5,7 @@ import tkinter as tk
 
 # Create the main window
 root = Tk()
-root.title("Enter Title Here")
+root.title("Meeting Notes")w
 
 #Set size of window
 
@@ -22,11 +22,11 @@ textarea = tk.Text(root, width = 50, height = 10, wrap="word")
 # Place widgets in window (with pack function!)
 l = Label(root, text = "text box")
 T = Text(root, height = 5, width = 52)
-red_button.grid(row=0, column=0)	
+underscore.grid(row=0, column=0)	
 
 
-yellow_button.grid(row=0, column=1 )
-green_button.grid(row=0, column=2)
+bold.grid(row=0, column=1 )
+italics.grid(row=0, column=2)
 label.grid(row= 1, column= 1)
 T.grid(row = 1, column =1, columnspan=2)
 
