@@ -6,7 +6,7 @@ import tkinter as tk
 # Create the main window
 root = Tk()
 root.title("Meeting Notes")
-resized_image = image.resize((250, 200))
+resized_image = Image.resize((250, 200))
 #Set size of window
 photo = PhotoImage(file = "italics.png")
 # Create buttons
