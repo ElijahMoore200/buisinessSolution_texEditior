@@ -11,11 +11,12 @@ root.title("Meeting Notes")
 from PIL import Image 
 try:
 	img = Image.open("https://cdn-icons-png.flaticon.com/512/59/59377.png")
-
+finally 
+	pass
 # Create buttons
-underscore = Button(root, text="I", background='red')
-bold = Button(root,text="Yellow", background='yellow')
-italics= Button(root,text='Green',background='green')
+underscore = Button(root, text="U", background='white')
+bold = Button(root,text="B", background='white')
+italics= Button(root,text='I',background='white')
 #Add a label
 label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
