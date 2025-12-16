@@ -11,7 +11,7 @@ root.title("Meeting Notes")
 from PIL import Image 
 try:
 	img = Image.open("https://cdn-icons-png.flaticon.com/512/59/59377.png")
-finally 
+finally: 
 	pass
 # Create buttons
 underscore = Button(root, text="U", background='white')
