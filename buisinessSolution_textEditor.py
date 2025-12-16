@@ -5,7 +5,7 @@ import tkinter as tk
 
 # Create the main window
 root = Tk()
-root.title("Meeting Notes")w
+root.title("Meeting Notes")
 
 #Set size of window
 
