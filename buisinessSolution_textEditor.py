@@ -1,5 +1,6 @@
 from tkinter import *
 #need to install on all machines
+pip install Pillow 
 from tkmacosx import Button
 import tkinter as tk 
 
@@ -8,10 +9,12 @@ root = Tk()
 root.title("Meeting Notes")
 
 #Set size of window
-
+from PIL import Image 
+try:
+	img = Image.open("https://cdn-icons-png.flaticon.com/512/59/59377.png")
 
 # Create buttons
-underscore = Button(root, text="Red", background='red')
+underscore = Button(root, text="I", background='red')
 bold = Button(root,text="Yellow", background='yellow')
 italics= Button(root,text='Green',background='green')
 #Add a label
