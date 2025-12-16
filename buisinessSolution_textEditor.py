@@ -10,9 +10,9 @@ root.title("Meeting Notes")
 #Set size of window
 photo = PhotoImage(file = "italics.png")
 # Create buttons
-underscore = Button(root, text="U", background='white', image = photo)
+underscore = Button(root, text="U", background='white')
 bold = Button(root,text="B", background='white')
-italics= Button(root,text='I',background='white')
+italics= Button(root,height= 10, width = 10,text='I',background='white',image = photo)
 #Add a label
 label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
