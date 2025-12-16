@@ -2,7 +2,7 @@ from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
 import tkinter as tk 
-from tkinter.tkk import 
+from tkinter.tkk import *
 
 # Create the main window
 root = Tk()
