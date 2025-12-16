@@ -8,7 +8,7 @@ root = Tk()
 root.title("Meeting Notes")
 
 #Set size of window
-photo = PhotoImage(file = "italics")
+photo = PhotoImage(file = "italics.png")
 # Create buttons
 underscore = Button(root, text="U", background='white')
 bold = Button(root,text="B", background='white')
