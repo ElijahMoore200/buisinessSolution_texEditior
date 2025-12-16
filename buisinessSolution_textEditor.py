@@ -1,6 +1,5 @@
 from tkinter import *
 #need to install on all machines
-pip install Pillow 
 from tkmacosx import Button
 import tkinter as tk 
 
