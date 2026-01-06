@@ -6,17 +6,16 @@ import tkinter as tk
 # Create the main window
 root = Tk()
 root.title("Meeting Notes")
-resized_image = Image.resize((250, 200))
+
 #Set size of window
-photo = PhotoImage(file = "italics.png")
+
 # Create buttons
-underscore = Button(root, text="U", background='white')
-bold = Button(root,text="B", background='white')
-italics= Button(root,text='I',background='white',image = photo)
+underscore = Button(root, background='white',text = "underscore")
+bold = Button(root, background='white', text = "Bold")
+italics= Button(root,background='white',text = "Italics")
 #Add a label
 label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
-
 
 # Place widgets in window (with pack function!)
 l = Label(root, text = "text box")
