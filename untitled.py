@@ -2,11 +2,11 @@ from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
 import tkinter as py
+
 def openFile():
-	with open('Meeting Notes', 'r+') as file:
-		content = file.read()
-		file.write('\nThis is a new line.')
-# Create the main window
+	with open('Meeting Notes', 'a') as file:
+	file.write('\nThis is a new line.')
+
 root = Tk()
 root.title("Meeting Notes")
 
@@ -18,7 +18,7 @@ bold = Button(root, background='white', text = "Bold")
 italics= Button(root,background='white',text = "Italics")
 #Add a label
 label = Label(root, text = "What color is the light?!")
-textarea = tk.Text(root, width = 50, height = 10, wrap="word")
+textarea = Text(root, width = 50, height = 10, wrap="word")
 File = Button(root, text = "Save & Open File", command = openFile)
 # Place widgets in window (with pack function!)
 l = Label(root, text = "text box")
