@@ -5,7 +5,7 @@ import tkinter as py
 
 def openFile():
 	with open('Meeting Notes', 'a') as file:
-	file.write('\nThis is a new line.')
+		file.write('\nThis is a new line.')
 
 root = Tk()
 root.title("Meeting Notes")
