@@ -1,7 +1,7 @@
 from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
-import tkinter as tk py
+import tkinter as py
 def openFile():
 	with open('Meeting Notes', 'r+') as file:
 		content = file.read()
