@@ -4,7 +4,7 @@ from tkmacosx import Button
 import tkinter as py
 
 def openFile():
-	with open('Meeting Notes', 'a') as file:
+	with open('Meeting Notes.txt', 'a') as file:
 		file.write('\nThis is a new line.')
 
 root = Tk()
@@ -34,5 +34,5 @@ T.grid(row = 1, column =1, columnspan=2)
 
 # Start the GUI event loop
 root.mainloop()
-tk.mainloop()
+
 
